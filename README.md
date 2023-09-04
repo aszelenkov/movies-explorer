@@ -1,6 +1,6 @@
 ## Дипломная работа "Приложение поиска и сохранения фильмов"
 
-![Image alt](https://github.com/aszelenkov/movies-explorer/RESULT_LANDING.jpg)
+![Image alt](https://github.com/aszelenkov/movies-explorer/blob/main/RESULT_LANDING.jpg)
 
 Добро пожаловать в репозиторий моей дипломной работы! Этот проект был разработан в рамках 10-месячного курса Яндекс Практикума по веб-разработке. Приложение представляет собой платформу для поиска и сохранения фильмов.
 
@@ -35,7 +35,7 @@
 
 ## Описание проекта
 
-![Image alt](https://github.com/aszelenkov/movies-explorer/RESULT_MAIN.jpg)
+![Image alt](https://github.com/aszelenkov/movies-explorer/blob/main/RESULT_MAIN.jpg)
 
 - Наше приложение предоставляет возможность искать фильмы по базе данных, предоставленной Яндексом. Мы использовали публичное API https://api.nomoreparties.co/beatfilm-movies для получения информации о фильмах.
 
@@ -46,13 +46,13 @@
 - Удаление фильмов: Если вы удаляете фильм со страницы "Сохраненные фильмы", лайк с этого фильма автоматически снимается.
 - Фильтр короткометражек: Вы можете переключить чекбокс, чтобы отобразить только короткометражные фильмы с длительностью менее 40 минут.
 - Портфолио: Страница портфолио отображает информацию об авторе и его краткое описание.
- ![Image alt](https://github.com/aszelenkov/movies-explorer/RESULT_LANDING.jpg)
+ ![Image alt](https://github.com/aszelenkov/movies-explorer/blob/main/RESULT_LANDING.jpg)
 
 - Авторизация и управление аккаунтом: Пользователи могут войти на сайт, используя функцию регистрации и логина.
- ![Image alt](https://github.com/aszelenkov/movies-explorer/RESULT_REGISTER.jpg)
+ ![Image alt](https://github.com/aszelenkov/movies-explorer/blob/main/RESULT_REGISTER.jpg)
 
 - Также доступна страница аккаунта пользователя, где можно редактировать информацию о себе.
- ![Image alt](https://github.com/aszelenkov/movies-explorer/RESULT_PROFILE.jpg)
+ ![Image alt](https://github.com/aszelenkov/movies-explorer/blob/main/RESULT_PROFILE.jpg)
 
 
 ## Установка и запуск проекта
