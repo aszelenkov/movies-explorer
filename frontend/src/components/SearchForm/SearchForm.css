@@ -1,0 +1,113 @@
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+.searchForm__find {
+  width: 100%;
+  border: none;
+  max-width: 1140px;
+  padding: 60px 0 70px 0;
+  transition: padding 0.3s ease;
+  border-bottom: 1px solid #424242;
+}
+
+.searchForm__wrapper {
+  margin: 0 auto;
+  background-color: #2f2f2f;
+  display: flex;
+  border-radius: 40px;
+  padding: 6px;
+}
+
+.searchForm__input-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.searchForm__find-input {
+  width: 100%;
+  padding: 0;
+  margin-left: 16px;
+  color: #fff;
+  background-color: #2f2f2f;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.searchForm__find-input:focus {
+  outline: #8b8b8b solid 1px;
+}
+.searchForm__find-input:hover {
+  outline: #8b8b8b solid 1px;
+}
+
+.searchForm__button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 80px;
+  min-height: 34px;
+  background-color: transparent;
+}
+
+.searchForm__button {
+  margin-left: 10px;
+  background-image: url(../../images/find.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  width: 34px;
+  height: 34px;
+}
+
+.searchForm__button:disabled {
+  pointer-events: none;
+}
+
+.searchForm__find-input-error {
+  margin: 0 auto;
+  color: #ff004c;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.searchForm__find-input-error_active {
+  visibility: visible;
+}
+
+@media screen and (max-width: 1279px) {
+  .searchForm__find {
+    padding: 80px 0 50px 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    .searchForm__find-input {
+      font-size: 11px;
+      margin-left: 13px;
+    }
+
+    .searchForm__wrapper {
+      width: calc(100% - 20px);
+    }
+  }
+}
